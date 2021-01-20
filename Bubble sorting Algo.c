@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include<Stdio.h>
 
 void main(void){
@@ -31,12 +31,3 @@ void main(void){
             printf("Numbers after sorting = %d\n",arr[i]);
         }
 }
-=======
-#include<Stdio.h>
-
-void main(void){
-	
-	
-	
-}
->>>>>>> d1797ebc6436dcf96dceb035bb35ded4a3cde711
