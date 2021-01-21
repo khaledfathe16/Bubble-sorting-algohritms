@@ -15,8 +15,8 @@ void main(void){
             }
 
 	//bubble sorting process
-	for(int i=0;i<size-1;i++){
-        for(int j=0;j<size-i-1;j++){
+	for(int i=0;i<size-1;i++){ // i put "-1"  to didn't check last number in array with a out value of array
+        for(int j=0;j<size-i-1;j++){//  i put "-i-1" to don't check the last number in array already sorted
             if(arr[j]>arr[j+1]){
                 x=arr[j];
                 arr[j]=arr[j+1];
